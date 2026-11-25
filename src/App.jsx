@@ -7,7 +7,7 @@ import QrCodeReader from './Componenets/QRScanner';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/QRSuguScanner">
       <div className="app">
         <Routes>
           <Route exact path="/" element={<Home />} />
